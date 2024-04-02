@@ -1,0 +1,307 @@
+
+/* Estilo para el contenido de la barra de navegación */
+nav .gaming-collapse {
+    justify-content: flex-end;
+}
+
+nav .gaming-collapse .gaming-link {
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    margin: 0 30px;
+}
+
+nav .gaming-collapse .gaming-link:hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+/* Estilo para el carousel y sus elementos */
+#gamingHeroCaptions .carousel-item {
+    position: relative;
+}
+
+#gamingHeroCaptions .carousel-item .carousel-caption {
+    position: absolute;
+    left: 10%;
+    top: 200px;
+    z-index: 9;
+    text-align: left;
+}
+
+.carousel-item .carousel-caption h5 {
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.carousel-item .carousel-caption p {
+    font-size: 26px;
+    margin-right: 600px;
+}
+
+.carousel-item .carousel-caption button {
+    background: blue;
+    padding: 12px 40px;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 25px;
+    border-color: gray;
+}
+
+/* Estilo para el botón de reproducción de video */
+#play-video {
+    position: absolute;
+    z-index: 99;
+    right: 10%;
+    top: 30%;
+    background: red;
+    border-radius: 500px;
+    border: 4px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilo para los párrafos en el cuerpo del documento */
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+/* Estilos para el encabezado (header) */
+header {
+    color: aliceblue;
+    width: 100%;
+    padding: 40px 0;
+    background: url("https://cdnb.20m.es/sites/73/2015/09/toyoi-yuta-animated-gifs-everyday-life-japan-7.gif"); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: background-color 0.4s ease-in-out; /* Transición para cambio de color de fondo */
+}
+
+header nav {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.4s ease-in-out; /* Transición para animación */
+}
+
+header nav ul {
+    display: flex;
+    padding-right: 60px;
+    margin-right: 10px;
+}
+
+header nav li {
+    margin-right: 50px;
+    list-style: none;
+}
+
+header nav li a {
+    color: rgb(216, 213, 213);
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Estilos para los elementos del carrusel */
+
+.carousel-item h5 {
+    /* Estilos para el título del carrusel */
+    color: #fff; /* Cambia el color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de la fuente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.carousel-item p {
+    /* Estilos para el párrafo del carrusel */
+    color: #fff; /* Cambia el color del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
+.carousel-item button {
+    /* Estilos para el botón del carrusel */
+    background-color: #007bff; /* Cambia el color de fondo del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Añade padding al botón */
+    border-radius: 5px; /* Añade bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+}
+
+.carousel-item button:hover {
+    /* Estilos al pasar el mouse sobre el botón */
+    background-color: #0056b3; /* Cambia el color de fondo del botón al pasar el mouse */
+}
+
+
+/* Estilo para el botón de reproducción de video */
+#play-video {
+    position: absolute; /* Posicionamiento absoluto */
+    z-index: 99; /* Capa más alta */
+    right: 10%; /* Distancia desde el borde derecho */
+    top: 30%; /* Distancia desde el borde superior */
+    background: rgba(255, 0, 0, 0.493); /* Color de fondo con transparencia */
+    border-radius: 500px; /* Borde redondeado */
+    border: 4px solid rgba(255, 0, 0, 0.384); /* Borde con transparencia */
+    width: 100px; /* Ancho del botón */
+    height: 100px; /* Altura del botón */
+}
+
+/* Estilo para los párrafos en el cuerpo del documento */
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Fuente del texto */
+    font-size: 18px; /* Tamaño de fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    color: rgb(110, 110, 110); /* Color del texto */
+    -webkit-text-stroke: 2px rgb(0, 0, 0); /* Grosor y color del contorno del texto para navegadores WebKit */
+}
+
+/* Estilos para el rectángulo de espacio */
+.rectangle {
+    width: 100%; /* Ancho completo */
+    height: 50px; /* Altura del rectángulo */
+    background-color: #2e2929; /* Color de fondo del rectángulo */
+}
+
+/* Estilos para la sección con fondo gris */
+.gray-section {
+    background-image: url(https://i.pinimg.com/originals/ef/ba/2b/efba2bbf39579bbf7324fe38ebc27cfc.gif); /* Imagen de fondo */
+    background-size: cover; /* La imagen de fondo se ajusta al tamaño del contenedor */
+    padding: 50px 0; /* Espaciado interno superior e inferior */
+}
+
+.gray-section .container {
+    text-align: center; /* Alineación del contenido al centro */
+}
+
+/* Estilos para la sección con imagen de fondo */
+.image-section {
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a2c3d5e0-b9a6-461a-a9c4-62978d14b01c/df7wcgm-7e696209-543a-4eeb-bdbc-f4d45298c581.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2EyYzNkNWUwLWI5YTYtNDYxYS1hOWM0LTYyOTc4ZDE0YjAxY1wvZGY3d2NnbS03ZTY5NjIwOS01NDNhLTRlZWItYmRiYy1mNGQ0NTI5OGM1ODEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.w9SY_weLmExYJgYlLMtU9mVKBn_32KNmEIFTL_xr4Lo'); /* Imagen de fondo */
+    background-size: cover; /* La imagen de fondo se ajusta al tamaño del contenedor */
+    background-position: center; /* Posicionamiento de la imagen de fondo en el centro */
+    padding: 100px 0; /* Espaciado interno superior e inferior */
+}
+
+.image-section .container {
+    text-align: center; /* Alineación del contenido al centro */
+}
+
+.text-box {
+    color: #ffffff; /* Color del texto */
+    background-color: rgba(97, 75, 75, 0.377); /* Color de fondo con transparencia */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Borde redondeado */
+}
+
+/* Estilos para los títulos y párrafos en las secciones */
+.container h2 {
+    font-size: 36px; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.container p {
+    font-size: 18px; /* Tamaño de fuente */
+}
+
+/* Estilo para el fondo de pantalla */
+body::before {
+    content: ""; /* Contenido vacío */
+    position: fixed; /* Posicionamiento fijo */
+    top: 0; /* Desde el borde superior */
+    left: 0; /* Desde el borde izquierdo */
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    z-index: -1; /* Detrás de todo */
+    background: url("https://preview.redd.it/bpxxqqvps4h91.gif?width=640&crop=smart&auto=webp&s=e29a6c5b5996e595d29e52030ed4e9abe618e3bd") repeat; /* Imagen de fondo repetida */
+    animation: moveBackground 30s linear infinite; /* Animación para mover el fondo */
+}
+
+/* Estilos para la galería de imágenes */
+.imagen-galeria {
+    display: flex; /* Muestra las imágenes en línea */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan */
+    justify-content: space-between; /* Distribuye uniformemente las imágenes */
+}
+
+/* Estilos para la galería de imágenes */
+.galeria {
+    display: flex; /* Muestra las imágenes en línea */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan */
+    justify-content: space-between; /* Distribuye uniformemente las imágenes */
+    align-items: flex-start; /* Alinea verticalmente las imágenes en la parte superior */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilos para las imágenes en la galería */
+.imagen {
+    width: calc(33.33% - 20px); /* Calcula el ancho para tres imágenes en una fila */
+    margin-bottom: 20px; /* Margen inferior */
+    position: relative; /* Posicionamiento relativo */
+    overflow: hidden; /* Oculta cualquier contenido que desborde */
+}
+
+.imagen img {
+    width: 100%; /* Ancho completo */
+    height: auto; /* Altura automática */
+    transition: transform 0.3s ease; /* Transición al hacer hover */
+}
+
+/* Estilos para el texto superpuesto en las imágenes */
+.texto {
+    position: absolute; /* Posicionamiento absoluto */
+    bottom: 0; /* Desde el borde inferior */
+    left: 0; /* Desde el borde izquierdo */
+    width: 100%; /* Ancho completo */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo con transparencia */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto al centro */
+    transform: translateY(100%); /* Empuja el texto hacia abajo */
+    transition: transform 0.3s ease; /* Transición al hacer hover */
+}
+
+.imagen:hover .texto {
+    transform: translateY(0); /* Muestra el texto al hacer hover */
+}
+
+/* Estilos para el contenedor del iframe */
+.iframe-container {
+    display: flex; /* Muestra el iframe en línea */
+    justify-content: center; /* Alineación horizontal al centro */
+}
+
+/* Estilos para el pie de página */
+#foot {
+    width: 100%; /* Ancho completo */
+    background-color: #000000; /* Color de fondo */
+    text-align: center; /* Alineación del texto al centro */
+    margin: 0%; /* Sin margen */
+    padding-top: 70px; /* Espaciado superior */
+    padding-bottom: 70px; /* Espaciado inferior */
+    color: #ffffff; /* Color del texto */
+}
+
+/* Estilos para diferentes tamaños de pantalla */
+@media screen and (min-width: 768px) and (max-width: 990px) {
+    header {
+        background: #000000; /* Cambia el color de fondo del encabezado en pantallas medianas */
+    }
+
+    header nav {
+        display: block; /* Cambia la disposición de la navegación a bloque */
+        text-align: center; /* Alineación del texto al centro */
+        width: 96%; /* Ancho del contenedor de navegación */
+        font-size: 20px; /* Tamaño de fuente */
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    header {
+        background-color: #00f7ff; /* Cambia el color de fondo del encabezado en pantallas pequeñas */
+    }
+}
